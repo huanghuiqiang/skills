@@ -1,0 +1,7 @@
+interface:
+  display_name: "Web Fetcher"
+  short_description: "Fetch a URL into readable markdown or text with fallback"
+  default_prompt: "Use $web-fetcher when a URL needs to be converted into readable markdown or text before summarizing, extracting, or analyzing it."
+
+policy:
+  allow_implicit_invocation: true

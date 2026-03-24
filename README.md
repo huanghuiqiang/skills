@@ -1,13 +1,19 @@
 # skills
 
-GitHub repository for managing multiple Codex skills in one place.
+Codex skills collected in a single repository.
 
-## Suggested layout
+## Included skills
+
+- `web-fetcher`: fetches a URL through markdown mirrors with fallback and returns readable markdown or text for downstream analysis.
+
+## Layout
 
 ```text
 skills/
-├── skill-a/
-│   └── SKILL.md
-└── skill-b/
-    └── SKILL.md
+└── web-fetcher/
+    ├── SKILL.md
+    ├── agents/
+    │   └── openai.yaml
+    └── scripts/
+        └── fetch.py
 ```
